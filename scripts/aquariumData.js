@@ -64,6 +64,12 @@ export const database = {
             text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
     
         }
+    ],
+    location: [
+        {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+         }
     ]
-
 };
