@@ -5,9 +5,9 @@ export const locationList = () => {
         for (const loc of database.location) {
             locHTML += `
             <section class="location"> 
-                <h3>${loc.name}</h3>
-                <p>${loc.country}</p>
-                <p>${loc.description}</p>
+                <h3 class="location_name">${loc.name}</h3>
+                <p class="location_country">${loc.country}</p>
+                <p class="location_description">${loc.description}</p>
             </section>
             `;        
         }
